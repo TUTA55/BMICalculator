@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ta.bmicalculator.Main2Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.06" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="0.15" />
+
+        <TextView
+            android:text="อยู่ในเกณฑ์ :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="0.09" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="0.08"
+            android:textSize="30sp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center" />
+
+    </LinearLayout>
+</RelativeLayout>

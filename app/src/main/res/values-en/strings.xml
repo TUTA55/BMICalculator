@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="Weight">Weight (kg)</string>
+    <string name="Height">Height (cm)</string>
+    <string name="Calculator">CALCULATOR</string>
+</resources>

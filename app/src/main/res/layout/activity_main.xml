@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ta.bmicalculator.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            app:srcCompat="@drawable/bmi"
+            android:id="@+id/imageView"
+            android:cropToPadding="false"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:text="Height (cm)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="25sp"
+            android:textColor="@color/colorAccent"
+            android:paddingLeft="25dp"
+            android:layout_weight="0.19"
+            android:gravity="left|center" />
+
+        <EditText
+            android:layout_width="333dp"
+            android:layout_height="52dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:background="@android:color/background_light"
+            android:gravity="right|center_vertical"
+            android:textSize="25sp"
+            android:paddingRight="15dp" />
+
+        <TextView
+            android:text="Weight (kg)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="25sp"
+            android:textColor="@color/colorAccent"
+            android:paddingLeft="25dp"
+            android:layout_weight="0.18"
+            android:gravity="left|center" />
+
+        <EditText
+            android:layout_width="334dp"
+            android:layout_height="51dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:background="?attr/actionModeBackground"
+            android:gravity="right|center_vertical"
+            android:textSize="25sp"
+            android:paddingRight="15dp" />
+
+        <Button
+            android:text="CALCULATE"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_weight="0.07"
+            android:layout_margin="30dp"
+            android:textSize="30sp"
+            android:contextClickable="false" />
+    </LinearLayout>
+</RelativeLayout>
